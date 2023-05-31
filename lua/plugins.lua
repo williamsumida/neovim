@@ -81,5 +81,9 @@ packer.startup(function(use)
   use { "williamboman/mason.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
   use { "petertriho/nvim-scrollbar" }
+  use 'christoomey/vim-tmux-navigator'
+  use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use 'nvim-tree/nvim-web-devicons'
+  --  use {'neoclide/coc.nvim', run = 'yarn install --frozen-lockfile', branch='master'}
 end)
 
